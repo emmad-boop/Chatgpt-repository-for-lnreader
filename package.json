@@ -1,0 +1,21 @@
+{
+  "name": "lnreader-fanfiction",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FanFiction.net source for LNReader",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "npm run build && node --test test/**/*.test.mjs"
+  },
+  "keywords": [
+    "lnreader",
+    "lnreader-extension",
+    "fanfiction"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "type": "module"
+}
