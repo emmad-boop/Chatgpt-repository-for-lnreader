@@ -1,0 +1,9 @@
+{
+  "id": "fanfictionnet",
+  "name": "FanFiction.net",
+  "version": "1.0.0",
+  "lang": "en",
+  "type": "source",
+  "entry": "dist/index.js",
+  "baseUrl": "https://www.fanfiction.net"
+}
